@@ -15,7 +15,7 @@ install_requires = ["numpy<1.23.0",
                     "scipy"]
 
 if not on_rtd:
-    install_requires.append("networkit==7.1")
+    install_requires.append("networkit")
 
 setup_requires = ["cython", "numpy", "pytest-runner"]
 
